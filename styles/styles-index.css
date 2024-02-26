@@ -138,10 +138,15 @@ strong {
 @media (max-width: 700px) {
     .container {
         flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .container__conteudo{
         width: auto;
+    }
+
+    .container__img {
+        width: 50%;
     }
 
     .cabecalho{
